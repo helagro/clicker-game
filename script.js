@@ -1,7 +1,7 @@
 var all = [];
 function load(){
     var area = document.getElementById("playArea");
-    for(i = 0; i < 100; i++){
+    for(i = 0; i < 144; i++){
         var slot = document.createElement('div');
         slot.className = "slot";
         slot.id = "normal";
@@ -9,7 +9,6 @@ function load(){
         all.push(slot);
     }
 }
-load();	
     
 function start(){
     var myNode = document.getElementById("playArea");

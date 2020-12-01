@@ -25,7 +25,7 @@ body{
 
 #playArea{
 	display: grid;
-	grid-template-columns: repeat(10, auto);
+	grid-template-columns: repeat(12, auto);
 	margin: auto;
 	min-height : 500px;
 }

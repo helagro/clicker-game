@@ -51,5 +51,6 @@ function counter(){
 
     if(time == 0){
         alert("Game over")
+        location.reload();
     }
 }

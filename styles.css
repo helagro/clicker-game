@@ -1,0 +1,40 @@
+body{
+	display: grid;
+	grid-template-columns: auto;
+}
+
+#start{
+	font-size : 50px;
+	height : 200%;
+	margin-bottom : 10px;
+	width : 100%;
+}
+#score{
+	display : none;
+	margin-bottom : 10px;
+}
+#score *{
+	background-color : gray;
+	float : left;
+	font-size : 55px;
+	margin : 0px;
+	padding : 0px;
+	text-align : center;
+	width : 50%;
+}
+
+#playArea{
+	display: grid;
+	grid-template-columns: repeat(10, auto);
+	margin: auto;
+	min-height : 500px;
+}
+.slot {
+	background-color : black;
+	float : left;
+	min-height : 80px;
+	min-width : 80px;
+}
+#clickMe * {
+	display : block;
+}
